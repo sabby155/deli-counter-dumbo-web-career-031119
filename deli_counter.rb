@@ -10,7 +10,7 @@ def line (array)
     array.each_with_index {|x,i| num.push(i+1, x)}
     num = num.join(". ")
     puts "the line is currently: #{num}"
-      end 
+  end 
 end   
 
 
