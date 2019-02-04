@@ -3,10 +3,14 @@
 katz_deli = []
 
 def line (array)
- if array.length == 0
-   puts "The line is currently empty."
+  num = [] 
+  if array.length == 0
+    puts "The line is currently empty."
   end 
- else array.each_with_index {|x,i| puts "The line is currently: #{i+1}. #{x}"} end
+  else 
+    array.each_with_index {|x,i| num.push(i+1, x)}
+    num = num.join(". ")
+    puts "the line is currently: #{num}"
 end   
 
 
