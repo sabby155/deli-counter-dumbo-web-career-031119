@@ -3,8 +3,8 @@
 katz_deli = []
 
 def line 
- if line.size != 0
-   return line.size
+ if katz_deli.size != 0
+   return katz_deli.size
   else return "The line is currently empty."
   end 
 end   
