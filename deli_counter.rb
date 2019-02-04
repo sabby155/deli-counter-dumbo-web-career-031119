@@ -2,9 +2,9 @@
 
 katz_deli = []
 
-def line (katz_deli)
- if katz_deli.size != 0
-   return katz_deli.size
+def line (array)
+ if array.size != 0
+   return array.size
   else return "The line is currently empty."
   end 
 end   
